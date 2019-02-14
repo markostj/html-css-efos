@@ -11,30 +11,52 @@
     <body>
         <header>
             <div class="top">
-                <div class="efos-logo">
-                    <a href="http://www.efos.unios.hr/"> <img src="efos-header-logo.png" alt="logo of faculty of economics in Osijek"></a>         
-                </div>
-                <div class="university-logo">
-                    <a href="http://www.unios.hr/"> <img src="sveuciliste-logo.png" alt="logo of university in Osijek"></a>
-                </div> 
-                <div class="faculty">
-                    <img src="efos1.jpg" alt="picture of faculty of economics in Osijek">
-                </div>
-                <div class="search">
-                    <form action="">
+                      <!--isprobati tu-->
+                    <a  href="http://www.efos.unios.hr/"> <img class="efos-logo" src="efos-header-logo.png" alt="logo of faculty of economics in Osijek"></a>         
+                    <a  href="http://www.unios.hr/"> <img class="university-logo" src="sveuciliste-logo.png" alt="logo of university in Osijek"></a>
+                   <!--efos1.jpg stavit u css-u kao pozadinu s prozirnoscu nekom kao na stranici-->
+            </div>
+                    <form  class="search" action="">
                         <input type="text" placeholder="Upišite traženi pojam" name="Search" >
                         <button type="submit">Pretraži</button>
                     </form>     
-                </div>
-            </div>
-                
            <nav>
-
+                <ul>
+                    <li> <img  class="home-icon" src="Home.png" alt="home icon"> </li>
+                    <li>FAKULTET</li>
+                    <li>STUDENTI</li>
+                    <li>DJELATNICI</li>
+                    <li>NASTAVA</li>
+                    <li>ZNANOST</li>
+                    <li>KNJIŽNICA</li>
+                    <li>PRAKSE</li>
+                    <li>KONTAKT</li>
+                </ul>
            </nav>
         </header>
-        <main>
+        <main>  <!--Tu pregledati klase i izbacit nepotrebne divove-->
+            <div class="hero"> 
+                <img src="efos-slider.jpg" alt="picture of economics student">
+            </div>
             <section>
-
+                <span class="search2">
+                    <form action="">
+                        <input type="text" placeholder="Pretraga po nastavnicima i kolegijima" name="Search2" >
+                        <button type="submit">Pretraži</button>
+                    </form>    
+                </span>
+                <span class="icon">    <!--Is it better to use same class names or different for this-->
+                    <a href="http://www.efos.unios.hr/studenti/e-ucenje/"><img src="efos-online-servis-icon-1.png" alt="icon e-learning"></a> 
+                </span>
+                <span class="icon"> 
+                    <a href="https://www.isvu.hr/studomat/hr/prijava"><img src="efos-online-servis-icon-2.png" alt="icon e-learning"></a> 
+                </span>
+                <span class="icon"> 
+                    <a href="https://oliver.efos.hr/webmail/src/login.php"><img src="efos-online-servis-icon-3.png" alt="icon e-learning"></a> 
+                </span>
+                <span class="icon"> 
+                    <a href="http://alumni.efos.hr/"><img src="efos-online-servis-icon-93.png" alt="icon e-learning"></a> 
+                </span>
             </section>
           
         </main>
@@ -42,7 +64,12 @@
             
         </aside>
         <footer>
+            <div class="footer1">
 
+            </div>
+            <div class="footer2">
+
+            </div>
         </footer>
     </body>
 </html>

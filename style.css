@@ -1,0 +1,23 @@
+/* sve proba */
+.search{
+    color:black;
+    font-size:15px;
+}
+.search :hover{
+    color:red;
+}
+.search button{
+    color:blue;
+}
+.home-icon{
+    height:50px;
+}
+.university-logo{
+    position:relative;
+    left:500px;
+    height:200px;
+}
+.efos-logo{
+    position:relative;
+    left:200px;
+}
