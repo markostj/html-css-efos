@@ -11,25 +11,26 @@
     <body>
         <header>
             <div class="top">
-                    <a  class="efos-logo" href="http://www.efos.unios.hr/"> <img  src="efos-header-logo.png" alt="logo of faculty of economics in Osijek"></a>         
-                    <a  class="university-logo" href="http://www.unios.hr/"> <img  src="sveuciliste-logo.png" alt="logo of university in Osijek"></a>
-                    <form  class="search" action="">
-                            <input type="text" placeholder="Upišite traženi pojam" name="Search" >
-                            <button type="submit">Pretraži</button>
+                    <a   href="http://www.efos.unios.hr/"> <img class="efos-logo" src="efos-header-logo.png" alt="logo of faculty of economics in Osijek"></a>         
+                    <a   href="http://www.unios.hr/"> <img class="university-logo" src="sveuciliste-logo.png" alt="logo of university in Osijek"></a>
+                    <form  class="search" action=""> <!--Jel bolje da ovako dodam nove klase na input i button
+                                                            ili da dohvacam preko search?-->
+                            <input class="search-text" type="text" placeholder="Upišite traženi pojam" name="Search" >
+                            <button class="search-button" type="submit">Pretraži</button>
                         </form>         
             </div>
             
            <nav>
-                <ul>
-                    <li> <img  class="home-icon" src="Home.png" alt="home icon"> </li>
-                    <li>FAKULTET</li>
-                    <li>STUDENTI</li>
-                    <li>DJELATNICI</li>
-                    <li>NASTAVA</li>
-                    <li>ZNANOST</li>
-                    <li>KNJIŽNICA</li>
-                    <li>PRAKSE</li>
-                    <li>KONTAKT</li>
+                <ul class="navigation">
+                    <li class="nav-title"> <a href="#link"> <img  class="home-icon" src="Home.png" alt="home icon"></a>  </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">FAKULTET</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">STUDENTI</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">DJELATNICI</a></li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">NASTAVA</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">ZNANOST</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">KNJIŽNICA</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">PRAKSE</a> </li>
+                    <li class="nav-title"> <a class="nav-content" href="#link">KONTAKT</a></li>
                 </ul>
            </nav>
         </header>
@@ -130,7 +131,7 @@
                 <div class="col2">
                         <h3 class="footer-title">EFOS POPULARNO</h3>
                         <ul>
-                            <li><a href="#stipendije">stipendije.info</a></li> <!--saznati kojim klikom se ono kopira sam prema dolje-->
+                            <li><a href="#stipendije">stipendije.info</a></li> 
                             <li><a href="#coursera">coursera.org</a></li>
                             <li><a href="#p2pu">P2PU</a></li>
                             <li><a href="#Ted">TED Talks</a></li>

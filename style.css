@@ -1,4 +1,4 @@
-/* sve proba */
+
 *{
     box-sizing: border-box; 
     
@@ -8,26 +8,73 @@ html{
 }
 .top{
     background:#424242 url('efos1.jpg') no-repeat center;
-    background-size:600px 260px;
+    background-size:600px 280px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
+    /*kako je moguce staviti transparentnu sliku tj. opacity za background sliku?
+    posto kazu da se to ne moze tj. moze se koliko sam skuzio sam preko pseudo-elementa nekog */
 }
 .efos-logo{
-    padding:0px 30px 10px 30px;
+    height:90px;
+    padding:10px 20px 20px 20px;
     margin:0px 0px 10px 0px;
 }
-.university-logo img{
+.university-logo {
     height:130px;
     padding:10px 30px 10px 30px;
 }
-.main-title{
-    font-size:32px;
+.search{
+    display:flex;
+    flex-direction:column;
+}
+.search-text{    
+    background-color:rgb(192, 186, 186);
+    color:white;
+}
+.search-text:hover{
+    background-color: rgb(160, 154, 154);
+}
+.search-text:focus{
+    background-color:#424242;
+}
+.search-button{
+    background-color: #0260ad;
 }
 .home-icon{
     height:50px;
 }
+.navigation{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0260ad;
+
+}
+.nav-title{             
+    list-style-type:none;
+    border-bottom: 1px solid #424242;
+    font-size:2rem;
+    padding:5px 0px 5px 0px;
+}
+.nav-content{
+    color:white;
+}
+.nav-content:hover{
+    background-color:grey;
+}
+.nav-content:active{
+    color:blue;
+}
+.nav-content:focus{
+    color:black;
+}
+.hero{
+    display:none;
+}
+
 
 
 
