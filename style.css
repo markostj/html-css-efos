@@ -1,10 +1,10 @@
 
 *{
     box-sizing: border-box; 
-    
 }
 html{
     font-size:16px;
+    
 }
 .top{
     background:#424242 url('efos1.jpg') no-repeat center;
@@ -31,6 +31,7 @@ html{
 .search-text{    
     background-color:rgb(192, 186, 186);
     color:white;
+    font-size:1rem;
 }
 .search-text:hover{
     background-color: rgb(160, 154, 154);
@@ -40,6 +41,7 @@ html{
 }
 .search-button{
     background-color: #0260ad;
+    font-size:1rem;
 }
 .home-icon{
     height:50px;
@@ -53,7 +55,8 @@ html{
     background-color: #0260ad;
 
 }
-.nav-title{             
+.nav-title{
+               
     list-style-type:none;
     border-bottom: 1px solid #424242;
     font-size:2rem;
@@ -61,6 +64,7 @@ html{
 }
 .nav-content{
     color:white;
+    text-decoration: none;  
 }
 .nav-content:hover{
     background-color:grey;
@@ -74,9 +78,66 @@ html{
 .hero{
     display:none;
 }
+.search2{
+    text-align:center;
+}
+.search2-text{
+    font-size:1rem;
+    color:black;
+}
+.search2-text:hover{
+    background-color: rgb(204, 195, 195);
+}
+.search2-text:focus{
+    background-color:#424242;
+}
+.search2-button{
+    background-color: #9fb71c;
+    font-size:1rem;
+}
+.main1{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.icon{
+    margin:5px;
+    background-color:#dddbdb48;
+    border:2px dotted rgba(202, 197, 197, 0.521);
+}
+.main-title{
+    text-align: center;
+}
+.sect{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.section-title{
+    text-decoration: none;  
+    font-size:1.1rem;
+    color:black;
+    
+}
+.section-title:hover{
+    color: #9fb71c;
+}
+.link-picture{
+    border:2px dotted rgba(202, 197, 197, 0.521);
+}
+.more{
+    text-decoration: none;
+    color:black;
 
-
-
-
+}
+.more:hover{
+    color: #9fb71c;
+}
+.date{
+    margin:0px;
+    font-size:0.75rem;
+    align-self: flex-end;
+    margin:0px 0px 10px 0px;
+}
 @media(min-width: 500px){
 }
