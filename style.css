@@ -4,7 +4,6 @@
 }
 html{
     font-size:16px;
-    
 }
 .top{
     background:#424242 url('efos1.jpg') no-repeat center;
@@ -64,8 +63,8 @@ html{
 }
 .nav-content{
     color:white;
-    text-decoration: none;  
-}
+    text-decoration: none; 
+} 
 .nav-content:hover{
     background-color:grey;
 }
@@ -139,5 +138,76 @@ html{
     align-self: flex-end;
     margin:0px 0px 10px 0px;
 }
+.sect{
+    display:flex;
+    align-items:flex-start;
+}
+.side-title{
+    margin:0px;
+    padding:0px 0px 0px 20px;
+}
+.side-content{
+    font-size:1.375rem;
+    padding:0px 20px 20px 20px;
+    text-decoration: none;
+    color:black;
+}
+.side-content:hover{
+    color: #9fb71c;
+}
+.footer1{
+    background-color:#366f9e;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.footer-title{
+    color:white;
+    font-size:0.8125rem;
+    margin:0px 0px 0px 10px;
+}
+.foot-table{
+    padding:0px;
+}
+.f-title{
+    margin:0px;
+    list-style-type:none;
+}
+.f-content{
+    color:white;
+    font-size:0.8125rem;
+    padding:0px 10px;
+    text-decoration: none;
+}
+.f-content:hover{
+    text-decoration: underline;
+}
+.footer2{
+    background-color:#2c5d85;
+}
+.col3{
+    width:50%;
+}
+.col4{
+    width:50%;
+}
+.bold{
+    color:white;
+    list-style-type:none;
+    padding:0px 10px;
+    font-size:0.8125rem;
+    font-weight:bold;
+}
+.table-3{
+    color:white;
+    font-size:0.8125rem;
+    padding:0px 10px;
+}
+.footer-pic{
+    padding:0px 0px 0px 10px;
+    width:40%;
+    max-width:100px;
+}
+/*probat napravit logo linkove 2 po 2 */
 @media(min-width: 500px){
 }
