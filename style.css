@@ -7,7 +7,7 @@ html{
 }
 .top{
     background:#424242 url('efos1.jpg') no-repeat center;
-    background-size:600px 280px;
+    background-size:900px 280px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -108,15 +108,14 @@ html{
     text-align: center;
 }
 .sect{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
+   display:flex;
+   flex-flow: column wrap;
+   align-items: center;
 }
 .section-title{
     text-decoration: none;  
     font-size:1.1rem;
     color:black;
-    
 }
 .section-title:hover{
     color: #9fb71c;
@@ -137,10 +136,6 @@ html{
     font-size:0.75rem;
     align-self: flex-end;
     margin:0px 0px 10px 0px;
-}
-.sect{
-    display:flex;
-    align-items:flex-start;
 }
 .side-title{
     margin:0px;
@@ -219,8 +214,23 @@ html{
 .footer2{
     background-color:#2c5d85;
 }
-/*probat napravit logo linkove 2 po 2 */
 @media(min-width: 500px){
+    .top{
+        height:200px;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .efos-logo{ /*napraviti logo da fino sve stane*/
+        height:130px;
+        margin:80px 0px 0px 270px; 
+    }
+    .university-logo {
+ 
+    }
+    .hero{
+        display:block;
+        max-width:100%;
+    }
     .col1{
         flex:2 1 0;
     }
