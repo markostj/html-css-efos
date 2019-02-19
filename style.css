@@ -83,6 +83,8 @@ html{
 .search2-text{
     font-size:1rem;
     color:black;
+    width:280px;
+    height:40px;
 }
 .search2-text:hover{
     background-color: rgb(204, 195, 195);
@@ -93,6 +95,7 @@ html{
 .search2-button{
     background-color: #9fb71c;
     font-size:1rem;
+    height:40px;
 }
 .main1{
     display:flex;
@@ -214,22 +217,50 @@ html{
 .footer2{
     background-color:#2c5d85;
 }
-@media(min-width: 500px){
+@media(min-width: 768px){
     .top{
         height:200px;
         flex-direction:row;
         justify-content:space-around;
+        position:relative;
     }
     .efos-logo{ /*napraviti logo da fino sve stane*/
         height:130px;
-        margin:80px 0px 0px 270px; 
-    }
+        position:absolute;
+        left:15%;
+    }      /*kasnije cu ovo */
     .university-logo {
  
+    }
+    .navigation{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav-title{   
+        font-size:1.25rem;
+        border-left: 1px solid #424242;
+        border-right: 1px solid #424242;
+        border-bottom: 0;
+        padding:10px 10px;
+        margin:10px 0px;
+
+    }
+    .home-icon{
+        height:22px;
     }
     .hero{
         display:block;
         max-width:100%;
+    }
+    .search2{
+        display:inline-block;
+        margin:0px 0px 0px 300px;
+        position:relative;
+        top:-40px; /*provjerit zas baca gore kad se smanji rezolucija*/
+    }
+    .main1{
+        display:inline-block;
+        margin:30px 200px 20px 100px;
     }
     .col1{
         flex:2 1 0;
