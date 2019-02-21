@@ -7,11 +7,14 @@ html {
 .top {
   background: #424242 url("efos1.jpg") no-repeat center;
   background-size: 900px 280px;
+  
+  /*kako je moguce staviti transparentnu sliku tj. opacity za background sliku?
+    posto kazu da se to ne moze tj. moze se koliko sam skuzio sam preko pseudo-elementa nekog */
+}
+.pics-form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*kako je moguce staviti transparentnu sliku tj. opacity za background sliku?
-    posto kazu da se to ne moze tj. moze se koliko sam skuzio sam preko pseudo-elementa nekog */
 }
 .efos-logo {
   height: 90px;
@@ -225,17 +228,17 @@ html {
 @media (min-width: 1000px) {
   .top {
     height: 200px;
+  }
+  .pics-form{
     flex-direction: row;
-    justify-content: space-around;
-    position: relative;
+    justify-content: center;
   }
   .efos-logo {
-    /*napraviti logo da fino sve stane*/
     height: 130px;
-    position: absolute;
-    left: 20%;
-  } /*kasnije cu ovo */
+    margin:80px 100px 0px 0px;
+  } 
   .university-logo {
+    padding: 10px 20px 10px 30px;
   }
   .navigation {
     flex-direction: row;
